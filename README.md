@@ -126,18 +126,18 @@ https://www.kaggle.com/datasets/wangboluo/mcm2024/data
 Основные алгоритмы:
 * Сегментация: Sliding Window (окно 2-3 секунды, overlap 50%).
 * Временные признаки, например:
- - Mean (среднее значение)
- - Variance (дисперсия)
- - Energy (энергия сигнала: sum of squares)
- - Max/Min (экстремумы)
- - Zero Crossing Rate (пересечение нуля)
+  - Mean (среднее значение)
+  - Variance (дисперсия)
+  - Energy (энергия сигнала: sum of squares)
+  - Max/Min (экстремумы)
+  - Zero Crossing Rate (пересечение нуля)
 * Частотные признаки (ДПФ):
- - Discrete Fourier Transform (numpy.fft.rfft)
- - Dominant Frequency (доминирующая частота)
- - Nyquist Frequency (частота Найквиста: 10 Hz для 20 Hz дискретизации)
+  - Discrete Fourier Transform (numpy.fft.rfft)
+  - Dominant Frequency (доминирующая частота)
+  - Nyquist Frequency (частота Найквиста: 10 Hz для 20 Hz дискретизации)
 * Модели:
- - Logistic Regression: One-vs-Rest стратегия, L2 регуляризация
- - MLP (Multi-Layer Perceptron): 2 скрытых слоя, ReLU активация, Softmax выход
+  - Logistic Regression: One-vs-Rest стратегия, L2 регуляризация
+  - MLP (Multi-Layer Perceptron): 2 скрытых слоя, ReLU активация, Softmax выход
   - Optimizers: Adam, SGD
 
   ## Метрики качества:
