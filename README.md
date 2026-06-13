@@ -220,3 +220,44 @@ https://www.kaggle.com/datasets/wangboluo/mcm2024/data
  ✅ Оформлять научный текст с математическими выкладками
 
 ### 🎓 Инструкция по установке ПО
+* Скачайте Anaconda3 с https://www.anaconda.com/download/success (для windows)
+* Установите с настройками по умолчанию (галочка "Register as default Python" — ДА, "Add to PATH" — НЕТ)
+* Откройте Anaconda Prompt из меню Пуск
+* Перейдите в папку проекта:
+
+```bash
+cd D:\...\Practice_DecisionTreeClassifier
+```
+* Доустановите библиотеки:
+
+```bash
+pip install xgboost catboost optuna
+```
+
+* Запустите Jupyter:
+```bash
+jupyter notebook
+```
+## Работайте:
+1. Утром: открыть Anaconda Prompt
+2. Перейти в папку проекта
+```bash
+cd D:\...\Practice_DecisionTreeClassifier
+```
+
+3. Запустить Jupyter
+```bash
+jupyter notebook
+```
+
+4. Работать в ноутбуке, сохранять (Ctrl+S)
+
+5. Вечером: открыть GitHub Desktop
+6. Сделать Commit to main + Push origin
+
+### Полезные команды GitHub Desktop:
+
+* Скачать изменения напарника: Fetch origin → Pull
+* Загрузить свои изменения: Commit → Push origin
+* Посмотреть историю: Вкладка History
+* Открыть папку проекта: Repository → Show in Explorer
