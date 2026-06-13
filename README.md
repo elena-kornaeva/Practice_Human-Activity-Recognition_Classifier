@@ -234,12 +234,7 @@ https://www.kaggle.com/datasets/wangboluo/mcm2024/data
 * Перейдите в папку проекта:
 
 ```bash
-cd D:\...\Practice_DecisionTreeClassifier
-```
-* Доустановите библиотеки:
-
-```bash
-pip install xgboost catboost optuna
+cd D:\...\Practice_Human-Activity-Recognition_Classifier
 ```
 
 * Запустите Jupyter:
@@ -250,7 +245,7 @@ jupyter notebook
 1. Утром: открыть Anaconda Prompt
 2. Перейти в папку проекта
 ```bash
-cd D:\...\Practice_DecisionTreeClassifier
+cd D:\...\Practice_Human-Activity-Recognition_Classifier
 ```
 
 3. Запустить Jupyter
