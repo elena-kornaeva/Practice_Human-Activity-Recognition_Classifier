@@ -117,7 +117,7 @@ https://www.kaggle.com/datasets/wangboluo/mcm2024/data
 * 01_EDA_and_Preprocessing.ipynb — Загрузка данных, визуализация, сегментация на окна
 * 02_Feature_Extraction_Time.ipynb — Извлечение признаков временной области
 * 03_Feature_Extraction_Freq.ipynb — ДПФ, частотные признаки, анализ спектров
-* 04_Logistic_Regression.ipynb — Обучение LR, One-vs-Rest, анализ весов
+* 04_Logistic_Regression.ipynb — Обучение LR, One-vs-Rest (или One-vs-All) , анализ весов
 * 05_MLP_Model.ipynb — Построение нейросети, прямой и обратный проход
 * 06_Hyperparameter_Tuning.ipynb — Оптимизация гиперпараметров, матрицы ошибок
 * 07_Comparison_Analysis.ipynb — Сравнение моделей, время инференса, выводы
@@ -264,3 +264,9 @@ jupyter notebook
 * Загрузить свои изменения: Commit → Push origin
 * Посмотреть историю: Вкладка History
 * Открыть папку проекта: Repository → Show in Explorer
+
+### 🔗 Полезные ссылки
+* WISDM Dataset: https://www.cis.fordham.edu/wisdm/dataset.php
+* Scikit-learn Logistic Regression: https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
+* NumPy FFT: https://numpy.org/doc/stable/reference/routines.fft.html
+* Git для начинающих: https://git-scm.com/book/ru/v2
