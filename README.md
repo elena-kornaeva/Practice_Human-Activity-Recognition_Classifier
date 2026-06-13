@@ -87,3 +87,29 @@ Practice_Human-Activity-Recognition_Classifier/
 ├── README.md # Описание проекта
 └── .gitignore # Что игнорировать в Git
 ```
+
+## 📥 Установка
+
+### 1. Клонирование репозитория
+```bash
+git clone https://github.com/elena-kornaeva/Practice_Human-Activity-Recognition_Classifier.git
+cd Practice_Human-Activity-Recognition_Classifier
+```
+или через GitHubDesktop (рекомендуется): File -> Clone Repository
+
+### 2. Установка зависимостей
+
+```bash
+pip install -r requirements.txt
+```
+
+или используя Anaconda Prompt (не обычный Command Prompt!):
+```bash
+conda install -r requirements.txt
+```
+
+## Загрузка данных
+Скачайте датасеты с Kaggle и поместите их в предварительно созданную папку data/raw/:
+
+https://www.kaggle.com/datasets/wangboluo/mcm2024/data
+
