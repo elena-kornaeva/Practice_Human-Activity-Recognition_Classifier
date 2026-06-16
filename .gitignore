@@ -9,6 +9,8 @@ data/
 
 # Игнорировать виртуальное окружение и кэш
 venv/
+.venv/
+.tools/
 __pycache__/
 .ipynb_checkpoints/
 
